@@ -1,1 +1,100 @@
-<mxfile host="app.diagrams.net" modified="2021-02-21T08:08:54.160Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.74" version="14.4.2" etag="OPQenet7abverozomsxP" type="github"><diagram id="sgP-08QXCkyRCPs794cQ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-02-21T08:20:58.135Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.74" etag="Z4KrrUNIKVUYGjGdBaIs" version="14.4.2" type="github">
+  <diagram id="sgP-08QXCkyRCPs794cQ" name="Page-1">
+    <mxGraphModel dx="868" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="64gri41Ku1fQepUdcVNt-1" value="&lt;pre style=&quot;font-size: 15px&quot;&gt;Enter a year&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="64gri41Ku1fQepUdcVNt-2" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="64gri41Ku1fQepUdcVNt-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="290" as="sourcePoint" />
+            <mxPoint x="440" y="120" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="64gri41Ku1fQepUdcVNt-3" value="&lt;pre&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 15px&quot;&gt;&lt;b&gt;If input year is &lt;/b&gt;&lt;/font&gt;&lt;/pre&gt;&lt;pre&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 15px&quot;&gt;evenly &lt;/font&gt;divided by 4&lt;/b&gt;&lt;/pre&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="297.5" y="120" width="285" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="64gri41Ku1fQepUdcVNt-4" value="&lt;pre&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;Not Leap Year&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="60" y="140" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="64gri41Ku1fQepUdcVNt-5" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="64gri41Ku1fQepUdcVNt-3" target="64gri41Ku1fQepUdcVNt-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="280" as="sourcePoint" />
+            <mxPoint x="450" y="230" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="64gri41Ku1fQepUdcVNt-6" value="&lt;pre&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 15px&quot;&gt;No&lt;/font&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="130" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="64gri41Ku1fQepUdcVNt-8" value="&lt;pre&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 15px&quot;&gt;&lt;b&gt;If input year is &lt;/b&gt;&lt;/font&gt;&lt;/pre&gt;&lt;pre&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 15px&quot;&gt;evenly &lt;/font&gt;divided by 100&lt;/b&gt;&lt;/pre&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="297.5" y="270" width="285" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="64gri41Ku1fQepUdcVNt-9" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="64gri41Ku1fQepUdcVNt-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="320" as="sourcePoint" />
+            <mxPoint x="440" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="64gri41Ku1fQepUdcVNt-10" value="&lt;pre&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 15px&quot;&gt;Yes&lt;/font&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="220" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="64gri41Ku1fQepUdcVNt-11" value="&lt;pre&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;Leap Year&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="650" y="290" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="64gri41Ku1fQepUdcVNt-12" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="64gri41Ku1fQepUdcVNt-8" target="64gri41Ku1fQepUdcVNt-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="360" as="sourcePoint" />
+            <mxPoint x="450" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="620" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="64gri41Ku1fQepUdcVNt-13" value="&lt;pre&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 15px&quot;&gt;No&lt;/font&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="280" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="64gri41Ku1fQepUdcVNt-14" value="&lt;pre&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 15px&quot;&gt;&lt;b&gt;If input year is &lt;/b&gt;&lt;/font&gt;&lt;/pre&gt;&lt;pre&gt;&lt;b&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 15px&quot;&gt;evenly &lt;/font&gt;divided by 400&lt;/b&gt;&lt;/pre&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="297.5" y="420" width="285" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="64gri41Ku1fQepUdcVNt-15" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="64gri41Ku1fQepUdcVNt-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="370" as="sourcePoint" />
+            <mxPoint x="450" y="290" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="64gri41Ku1fQepUdcVNt-16" value="&lt;pre&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 15px&quot;&gt;Yes&lt;/font&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="380" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="64gri41Ku1fQepUdcVNt-17" value="&lt;pre&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;Leap Year&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="660" y="440" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="64gri41Ku1fQepUdcVNt-18" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="64gri41Ku1fQepUdcVNt-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="470" as="sourcePoint" />
+            <mxPoint x="450" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="64gri41Ku1fQepUdcVNt-19" value="&lt;pre&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 15px&quot;&gt;Yes&lt;/font&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="595" y="430" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="64gri41Ku1fQepUdcVNt-20" value="&lt;pre&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;Not Leap Year&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="80" y="440" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="64gri41Ku1fQepUdcVNt-21" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="64gri41Ku1fQepUdcVNt-14" target="64gri41Ku1fQepUdcVNt-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="420" as="sourcePoint" />
+            <mxPoint x="450" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="64gri41Ku1fQepUdcVNt-22" value="&lt;pre&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 15px&quot;&gt;No&lt;/font&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="420" width="30" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
